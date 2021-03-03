@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/file/d/1-2D1Ld-PctkhhoKGwnJ21OUh4wVFUL94/view?usp=sharing'
-export_file_name = 'export.pkl'
+export_file_url = 'https://drive.google.com/file/d/1AFVTvY1OsKy1IOwjdx3MkNQLw4wx8-lI/view?usp=sharing'
+export_file_name = 'train.pkl'
 
 classes = ['cumulonimbus', 'cumulus']
 path = Path(__file__).parent
